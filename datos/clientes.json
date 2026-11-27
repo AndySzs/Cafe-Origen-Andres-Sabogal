@@ -1,0 +1,20 @@
+{
+  "_nota": "Datos FICTICIOS para pruebas. No representan personas ni tiendas reales. Andres Sabogal - Variacion D.",
+  "clientes": {
+    "C-100": {"programa_activo": true},
+    "C-200": {"programa_activo": false},
+    "C-300": {"programa_activo": true}
+  },
+  "tiendas_piloto": {
+    "T01": "propia", "T02": "propia", "T03": "propia", "T04": "propia",
+    "T05": "propia", "T06": "propia", "T07": "propia", "T08": "propia",
+    "T09": "aliada", "T10": "aliada", "T11": "aliada", "T12": "aliada"
+  },
+  "parametros": {
+    "costo_cafe_debido_cop": 4000,
+    "vigencia_vale_dias": 30,
+    "tope_vales_por_cliente_dia": 1,
+    "multiplicador_nivel_promesa": 2,
+    "dia_tren_lanzamientos": "lunes"
+  }
+}

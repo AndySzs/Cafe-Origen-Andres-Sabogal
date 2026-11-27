@@ -1,0 +1,36 @@
+{
+  "_nota": "Datos FICTICIOS derivados del expediente Cafe Origen (E07) y la hoja Reglas de 05_Datos_Cafe_Origen.xlsx. Proyecto final - Andres Sabogal - Variacion D Rentabilidad.",
+  "promociones": {
+    "CAFE2": {
+      "versiones": [
+        {
+          "id": "POL-01",
+          "version": 1,
+          "publicada": "2026-03-01",
+          "vence": "2026-03-31",
+          "requiere_cliente_activo": false,
+          "categorias_elegibles": ["bebida_caliente"],
+          "minimo_items": 2,
+          "descuento_pct": 20,
+          "aplica_a": "segunda_bebida_menor_precio",
+          "fuente": ["E07", "Reglas!A2"],
+          "nota": "No consta sustitucion"
+        },
+        {
+          "id": "POL-02",
+          "version": 2,
+          "publicada": "2026-03-15",
+          "vence": "2026-03-31",
+          "requiere_cliente_activo": true,
+          "categorias_elegibles": ["bebida_caliente", "te"],
+          "minimo_items": 2,
+          "descuento_pct": 20,
+          "aplica_a": "segunda_bebida_menor_precio",
+          "fuente": ["E07", "Reglas!A3"],
+          "nota": "No consta despliegue en todas las tiendas"
+        }
+      ],
+      "acta_precedencia": null
+    }
+  }
+}
